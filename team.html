@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>EasyBooks</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="rel.css">
+  <link rel="stylesheet" href="team.css">
+</head>
+
+
+
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="100">
+ <div class="container-fluid">
+<nav class="navbar navbar-default navbar-fixed-top">
+ 
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand " href="file:///root/Desktop/website/bootheader.html#">EasyBooks        </a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+	
+      <ul class="nav navbar-nav navbar-right">
+       <!-- <li ><a href="#">Home</a></li> -->
+       
+        <li><a href="file:///root/Desktop/website/bootheader.html#about">About</a></li>
+        <li><a href="file:///root/Desktop/website/bootheader.html#services">Services</a></li>
+ <li><a href="file:///root/Desktop/website/bootheader.html#contact">Contact</a></li>
+        
+<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Others Facilities<span class="caret"></span></a>
+        <ul class="dropdown-menu gg">
+	          <li class="drpsize"><a href="coming.html" target="_blank">E-Books</a></li>
+          <li class="drpsize"><a href="comingcourse.html">Course Material</a></li>
+          <li class="drpsize"><a href="majorproject.html">Major Projects</a></li>
+          <li class="drpsize"><a href="team.html">The Team</a></li>
+        </ul>
+      </li>
+       
+      </ul>
+      	</div>
+    
+ 
+</nav>
+</div>
+
+<div class="container">
+
+<br><br><br>
+<p class="h1">THE TEAM</p>
+<hr>
+<br>
+
+<h4> Easybooks is an initiave to provide the students with all the required course and other reference books at a cheap cost. </h4><h4>We also provide all the required things which students need like projects, internships and renting of all the other acceseries like cycles,lab coats,late night printing. 
+</h4>
+
+<div class="row">
+     <div class="column">
+         <div class="card">
+ 
+
+                <img src="img2.png" alt="John" style="width:100%">
+                <h1 class="h1">Archit</h1>
+                <p class="title">Thapar University</p>
+                <div style="margin: 24px 0;">
+                        <a href="#"><i class="fa fa-dribbble"></i></a> 
+    			<a href="#"><i class="fa fa-twitter"></i></a>  
+    			<a href="#"><i class="fa fa-linkedin"></i></a>  
+    			<a href="#"><i class="fa fa-facebook"></i></a> 
+ 		</div>
+ 
+        	<p><button class="wid" onclick="myFunction1()">Contact</button></p>
+    		<div id="myDIV1">
+    			<h6 >email- architmaheshwari0@gmail.com</h6>
+    		</div>
+	</div>
+     </div>
+<div class="column">
+    <div class="card">
+
+  <img src="img2.png" alt="John" style="width:100%">
+  <h1 class="h1">Varshit</h1>
+  <p class="title">Thapar University</p>
+  
+  <div style="margin: 24px 0;">
+    <a href="#"><i class="fa fa-dribbble"></i></a> 
+    <a href="#"><i class="fa fa-twitter"></i></a>  
+    <a href="#"><i class="fa fa-linkedin"></i></a>  
+    <a href="#"><i class="fa fa-facebook"></i></a> 
+ </div>
+  <p><button class="wid"  onclick="myFunction2()">Contact</button></p>
+ <div id="myDIV2">
+ <h6 >Will be available soon</h6>
+ </div>
+ </div>
+</div>
+<div class="column">
+    <div class="card">
+  <img src="img2.png" alt="John" style="width:100%">
+  <h1 class="h1">Nabh</h1>
+  <p class="title">Thapar University</p>
+ 
+  <div style="margin: 24px 0;">
+    <a href="#"><i class="fa fa-dribbble"></i></a> 
+    <a href="#"><i class="fa fa-twitter"></i></a>  
+    <a href="#"><i class="fa fa-linkedin"></i></a>  
+    <a href="#"><i class="fa fa-facebook"></i></a> 
+ </div>
+ <p><button class="wid"  onclick="myFunction3()">Contact</button></p>
+<div id="myDIV3">
+<h6 >Will be available soom</h6>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<br><br><br><br><br>
+<!-- Footer -->
+
+<footer class="footer1 footer footer-hover">
+  <i class="fa fa-facebook-official ss-hover-opacity  style="font-size:36px"></i>
+  <i class="fa fa-instagram ss-hover-opacity  style="font-size:36px;"></i>
+ 
+  <i class="fa fa-pinterest-p ss-hover-opacity  style="font-size:36px"></i>
+  <i class="fa fa-google-plus ss-hover-opacity  style="font-size:36px"></i>
+  <i class="fa fa-linkedin ss-hover-opacity  style="font-size:36px"></i>
+<br>
+  
+</footer>
+
+<script>
+function myFunction1() {
+    var element = document.getElementById("myDIV1");
+
+    if (element.classList) { 
+        element.classList.toggle("mystyle");
+    } else {
+        var classes = element.className.split(" ");
+        var i = classes.indexOf("mystyle");
+
+        if (i >= 0) 
+            classes.splice(i, 1);
+        else 
+            classes.push("mystyle");
+            element.className = classes.join(" "); 
+    }
+}
+function myFunction2() {
+    var element = document.getElementById("myDIV2");
+
+    if (element.classList) { 
+        element.classList.toggle("mystyle");
+    } else {
+        var classes = element.className.split(" ");
+        var i = classes.indexOf("mystyle");
+
+        if (i >= 0) 
+            classes.splice(i, 1);
+        else 
+            classes.push("mystyle");
+            element.className = classes.join(" "); 
+    }
+}
+function myFunction3() {
+    var element = document.getElementById("myDIV3");
+
+    if (element.classList) { 
+        element.classList.toggle("mystyle");
+    } else {
+        var classes = element.className.split(" ");
+        var i = classes.indexOf("mystyle");
+
+        if (i >= 0) 
+            classes.splice(i, 1);
+        else 
+            classes.push("mystyle");
+            element.className = classes.join(" "); 
+    }
+}
+</script>
+</body>
+</html>
+
+
